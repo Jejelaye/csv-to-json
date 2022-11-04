@@ -1,0 +1,23 @@
+{
+  "name": "csv-to-json",
+  "version": "1.0.0",
+  "description": "task converting csv file to json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "csv",
+    "json"
+  ],
+  "author": "Kehinde Jejelaye",
+  "license": "ISC",
+  "dependencies": {
+    "convert-csv-to-json": "^1.3.3",
+    "csv": "^6.2.1",
+    "csvjson": "^5.1.0",
+    "json2csv": "^5.0.7"
+  }
+}
